@@ -1,0 +1,894 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Тестовое задание</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta content="telephone=no" name="format-detection">
+        <!-- This make sence for mobile browsers. It means, that content has been optimized for mobile browsers -->
+        <meta name="HandheldFriendly" content="true">
+
+
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <link href="static/css/main.css" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/> -->
+
+        <meta property="og:title" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="500" />
+        <meta property="og:image:height" content="300" />
+        <meta property="twitter:description" content="" />
+        <link rel="image_src" href="" />
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <script>
+            (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+        </script>
+
+    </head>
+
+    <body class="page" style="visibility: hidden;opacity: 0; --bs-font-sans-serif: 'gilroy', sans-serif;">
+        <svg xmlns="http://www.w3.org/2000/svg" style="border: 0 !important; clip: rect(0 0 0 0) !important; height: 1px !important; margin: -1px !important; overflow: hidden !important; padding: 0 !important; position: absolute !important; width: 1px !important;"
+        class="root-svg-symbols-element">
+            <defs>
+                <radialGradient id="paint0_radial_27_35" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(80.1751 0 0 1823.63 23.143 53.87)">
+                    <stop stop-color="#FF6A45" />
+                    <stop offset="1" stop-color="#FF8A6C" />
+                </radialGradient>
+                <linearGradient id="paint1_linear_27_35" x1="47.775" y1="117.096" x2="47.621" y2="-28.772" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF6A45" />
+                    <stop offset="1" stop-color="#FF6A45" stop-opacity="0" />
+                </linearGradient>
+                <filter id="filter0_f_27_35" x="0" y="4" width="109" height="109" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="4.5" result="effect1_foregroundBlur_27_35" />
+                </filter>
+                <radialGradient id="paint0_radial_27_27" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-80.1751 0 0 -1823.63 86.857 53.87)">
+                    <stop stop-color="#FF6A45" />
+                    <stop offset="1" stop-color="#FF8A6C" />
+                </radialGradient>
+                <linearGradient id="paint1_linear_27_27" x1="57.775" y1="130.096" x2="57.621" y2="-15.772" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF6A45" />
+                    <stop offset="1" stop-color="#FF6A45" stop-opacity="0" />
+                </linearGradient>
+                <filter id="filter0_f_27_27" x="1" y="4" width="109" height="109" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="4.5" result="effect1_foregroundBlur_27_27" />
+                </filter>
+            </defs>
+            <symbol id="arrd" viewBox="0 0 57 57" fill="none">
+                <path d="M28.4693 55.5474C43.3171 55.5474 55.3537 43.4378 55.3537 28.4998C55.3537 13.5618 43.3171 1.45215 28.4693 1.45215C13.6215 1.45215 1.58496 13.5618 1.58496 28.4998C1.58496 43.4378 13.6215 55.5474 28.4693 55.5474Z" stroke="#FF6A45" stroke-opacity=".84"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M18.3877 31.8808L28.4693 42.0237M28.4693 42.0237L38.551 31.8808M28.4693 42.0237V14.9761" stroke="#FF6A45" stroke-opacity=".84" stroke-linecap="round" stroke-linejoin="round" />
+            </symbol>
+            <symbol id="slider-next" viewBox="0 0 110 113" fill="none">
+                <mask id="mask0_27_35" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="13" y="12" width="85" height="85">
+                    <path d="M13.877 96.1416L97.1408 96.1416L97.1408 12.8777L13.877 12.8777L13.877 96.1416Z" fill="#fff" />
+                </mask>
+                <g mask="url(#mask0_27_35)">
+                    <path d="M55.5089 96.1416C32.5514 96.1416 13.877 77.4672 13.877 54.5097C13.877 31.5527 32.5514 12.8777 55.5089 12.8777C78.4659 12.8777 97.1408 31.5527 97.1408 54.5097C97.1408 77.4672 78.4659 96.1416 55.5089 96.1416ZM67.5669 52.4133L50.6319 35.4783C50.0521 34.8985 49.2935 34.601 48.5356 34.601C47.777 34.601 47.0038 34.8985 46.424 35.4783C45.2644 36.6379 45.2644 38.526 46.424 39.6862L61.2627 54.5097L46.424 69.3489C45.2644 70.5085 45.2644 72.382 46.424 73.5563C47.5988 74.7164 49.4723 74.7164 50.6319 73.5563L67.5669 56.6212C68.727 55.4616 68.727 53.5729 67.5669 52.4133Z"
+                    fill="url(#paint0_radial_27_35)" />
+                </g>
+                <g filter="url(#filter0_f_27_35)">
+                    <circle cx="45.5" cy="45.5" r="45.5" transform="matrix(-1 0 0 1 100 13)" fill="url(#paint1_linear_27_35)" fill-opacity=".67" />
+                </g>
+            </symbol>
+            <symbol id="slider-prev" viewBox="0 0 110 113" fill="none">
+                <mask id="mask0_27_27" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="12" y="12" width="85" height="85">
+                    <path d="M96.123 96.1416L12.8592 96.1416L12.8592 12.8777L96.123 12.8777L96.123 96.1416Z" fill="#fff" />
+                </mask>
+                <g mask="url(#mask0_27_27)">
+                    <path d="M54.4911 96.1416C77.4486 96.1416 96.123 77.4672 96.123 54.5097C96.123 31.5527 77.4486 12.8777 54.4911 12.8777C31.5341 12.8777 12.8592 31.5527 12.8592 54.5097C12.8592 77.4672 31.5341 96.1416 54.4911 96.1416ZM42.4331 52.4133L59.3681 35.4783C59.9479 34.8985 60.7065 34.601 61.4644 34.601C62.223 34.601 62.9962 34.8985 63.576 35.4783C64.7356 36.6379 64.7356 38.526 63.576 39.6862L48.7373 54.5097L63.576 69.3489C64.7356 70.5085 64.7356 72.382 63.576 73.5563C62.4012 74.7164 60.5277 74.7164 59.3681 73.5563L42.4331 56.6212C41.273 55.4616 41.273 53.5729 42.4331 52.4133Z"
+                    fill="url(#paint0_radial_27_27)" />
+                </g>
+                <g filter="url(#filter0_f_27_27)">
+                    <circle cx="55.5" cy="58.5" r="45.5" fill="url(#paint1_linear_27_27)" fill-opacity=".67" />
+                </g>
+            </symbol>
+        </svg>
+        <header class="header">
+            <div class="container">
+                <div class="row header__cont">
+                    <div class="header__logo col-3">
+                        <img src="static/img/content/logo.png">
+                    </div>
+                    <div class="header__links col-md-9 col-6 ms-auto">
+                        <a class="header__link" href="#">Информация</a>
+                        <a class="header__link" href="#">Кураторы</a>
+                        <a class="header__link" href="#">Для кого</a>
+                        <a class="header__link" href="#">Зарегистрироваться</a>
+                    </div>
+                    <div class="header__menu">
+                        <div class="rig"></div>
+                        <div class="lef"></div>
+                        <div class="hhide"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu-cont">
+                <a href="#">Информация</a>
+                <a href="#">Кураторы</a>
+                <a href="#">Для кого</a>
+                <a href="#">Записаться</a>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="main-rod position-relative">
+                <img class="position-absolute main-rod__img" src="static/img/content/mbg.png">
+                <div class="container main-rod__cont position-relative">
+                    <div class="main-rod__cont-subtitle col-xxl-5 col-lg-5 col-md-5 col-12 me-auto">
+                        Трансформационный практикум в Сочи
+                    </div>
+                    <h1 class="col-xxl-5 col-lg-5 col-12 me-auto">
+
+                    РОДОВЫЕ
+
+                    <span>
+
+                        СИСТЕМЫ
+
+                    </span>
+
+                </h1>
+                    <div class="main-rod__cont-text col-xxl-5 col-lg-5 col-12 me-auto">
+                        Признание и принятие родителей и рода, чтобы взять все психологические и энергетические ресурсы родовой системы для счастливой и полноценной жизни.
+                    </div>
+                    <div class="main-rod__cont-subtext col-xxl-5 col-lg-5 col-12 me-auto">
+                        Практические знания от клинического психолога-расстановщика.
+                        <br>Про взаимоотношения с родителями и родом и их влияние на наши финансы, любовь и отношения и здоровье.
+                    </div>
+                    <a href="#" class="main-rod__cont-btn text-decoration-none position-relative col-xxl-4 col-lg-4 col-12 me-auto ms-auto">
+                        <span class="position-absolute">
+
+                        <p>
+
+                            Практикум - 6 мая <br>
+
+                            Расстановочные дни 7- 8 мая
+
+                        </p>
+
+                        <img src="static/img/content/bless.png" class="position-absolute">
+
+                    </span>
+                        <p>Принять участие</p>
+                    </a>
+                    <div class="main-rod__cont-arr">
+                        <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M28.4693 55.5474C43.3171 55.5474 55.3537 43.4378 55.3537 28.4998C55.3537 13.5618 43.3171 1.45215 28.4693 1.45215C13.6215 1.45215 1.58496 13.5618 1.58496 28.4998C1.58496 43.4378 13.6215 55.5474 28.4693 55.5474Z" stroke="#FF6A45" stroke-opacity="0.84"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.3877 31.8808L28.4693 42.0237M28.4693 42.0237L38.551 31.8808M28.4693 42.0237V14.9761" stroke="#FF6A45" stroke-opacity="0.84" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about position-relative">
+                <div class="container about__cont position-relative">
+                    <h2 class="ms-auto col-xxl-10 col-12">
+
+                    О чем практикум <span class="stroke">и</span> что на нем будет?
+
+                </h2>
+                    <div class="about__cont-subtitle col-xxl-10 col-lg-7 col-12 ms-auto">
+                        Смотри видео в котором за <span>5 минут ты получишь всю информацию</span>
+                    </div>
+                    <div class="about__cont-video col-xxl-7 col-lg-8 col-12 position-relative ms-auto me-auto">
+                        <a href="https://www.youtube.com/watch?v=LTEGc5ycRhI" data-fancybox>
+                            <img src="static/img/content/vova.png">
+                            <img class="vidplay" src="static/img/content/play2.png">
+                        </a>
+                    </div>
+                    <div class="about__cont-text text-1 position-absolute">
+                        <img src="static/img/content/mess.png" class="position-absolute">
+                        <p class="me-auto">СПИКЕР:</p>
+                        <p class="tt">Владимир Сергеевич Протопопов</p>
+                    </div>
+                    <div class="about__cont-text text-2 position-absolute">
+                        <img src="static/img/content/mess.png" class="position-absolute">
+                        <p>расстановщик-практик, клинический психолог,
+                            <br>выпускник Школы Хеллингера (Hellinger Schule)</p>
+                    </div>
+                    <div class="about__cont-text text-3 position-absolute">
+                        <img src="static/img/content/mess.png" class="position-absolute">
+                        <p>эксперт системных расстановок и автор расстановочных семинаров, а также разработчик авторских методов диагностики
+                            <br>и психокоррекции.</p>
+                    </div>
+                    <div class="about__cont-text text-4 position-absolute">
+                        <img src="static/img/content/mess.png" class="position-absolute">
+                        <p>Руководитель научной части
+                            <br>НИИ “Системная психология”</p>
+                    </div>
+                    <div class="about__cont-text-ttt">
+                        <div class="about__cont-text text-1 position-absolute">
+                            <img src="static/img/content/mess.png" class="position-absolute">
+                            <p class="me-auto">СПИКЕР:</p>
+                            <p class="tt">Владимир Сергеевич Протопопов</p>
+                        </div>
+                        <div class="about__cont-text text-2 position-absolute">
+                            <img src="static/img/content/mess.png" class="position-absolute">
+                            <p>расстановщик-практик, клинический психолог,
+                                <br>выпускник Школы Хеллингера (Hellinger Schule)</p>
+                        </div>
+                        <div class="about__cont-text text-3 position-absolute">
+                            <img src="static/img/content/mess.png" class="position-absolute">
+                            <p>эксперт системных расстановок и автор расстановочных семинаров, а также разработчик авторских методов диагностики
+                                <br>и психокоррекции.</p>
+                        </div>
+                        <div class="about__cont-text text-4 position-absolute">
+                            <img src="static/img/content/mess.png" class="position-absolute">
+                            <p>Руководитель научной части
+                                <br>НИИ “Системная психология”</p>
+                        </div>
+                    </div>
+                    <a href="#" class="tbtn position-relative text-decoration-none ms-auto me-auto col-xxl-4 col-lg-4 col-12">
+                        <img src="static/img/content/bless.png" class="position-absolute">
+                        <p>Принять участие</p>
+                    </a>
+                    <div class="about__cont-subtext col-xxl-12 col-12">
+                        "Непринятие негативно влияет на все сферы нашей жизни и часто является причиной психотравм, проблем и блоков. Человек сам ограничивает себя, запрещая себе жить свою жизнь"
+                    </div>
+                </div>
+            </section>
+
+            <section class="textb position-relative">
+                <h2 class="textb__title position-relative stroke col-xxl-6 col-lg-8">
+
+                МАМА МАМА&nbsp;<span>МАМА</span>&nbsp;МАМА
+
+            </h2>
+                <div class="container textb__cont">
+                    <h2 class="textb__title tt2 position-relative stroke col-12">
+
+                    МАМА&nbsp;<span>МАМА</span>&nbsp;МАМА
+
+                </h2>
+                    <div class="textb__cont-subtitle col-xxl-6 col-12 col-lg-8">
+                        Отношения с мамой и влияние их на нашу жизнь
+                    </div>
+                    <div class="d-flex fwkn">
+                        <div class="textb__cont-img col-xxl-6 col-lg-6 col-12">
+                            <img src="static/img/content/t1.png">
+                        </div>
+                        <ul class="textb__cont-ul col-xxl-6 col-lg-6 col-12">
+                            <li>Мама - дает жизнь, это первый человек в жизни любого человека, который "открывает" этот мир.</li>
+                            <li>Мама проявляет нежность, заботу, ласку. С ней мы научаемся любви и доверию этому миру, замечать и принимать прелести этого мира, открывает наше чувственное восприятие этого мира.</li>
+                            <li>Если нет контакта с мамой, нет чувственного принятия его опыта, весь мир кажется мрачным и несправедливым к вам, вы не доверяете миру и людям вокруг, не можете принимать и отдавать в этот мир.</li>
+                            <li>Вы "недолюблены" мамой и ищите эту любовь в партнере, ставя его на место вашей мамы. И уже партнер должен любить вас, проявлять нежность, заботиться о вас как мама, но партнер никогда не сможет дать вам материнской любви.</li>
+                            <li>Не можете реализовать свой женский потенциал, раскрыть свою женскую энергию, обаятельность, привлекательность, сексуальность. Эти элементы проявляются слабо или вы чувствуете скованность, неуверенность, зажатость при проявлении</li>
+                        </ul>
+                    </div>
+                    <div class="textb__cont-text col-xxl-12 col-12">
+                        На практикуме, в расстановочном упражнении, пойдем к маме, отпустим все обиды, откроем сердце, примем чувственный опыт и мамину энергию. Чтобы наполнить свою жизнь красотой и ресурсами этого мира, на полную открыть свой женский поток.
+                    </div>
+                    <a href="#" class="tbtn position-relative text-decoration-none ms-auto me-auto col-xxl-4 col-lg-4 col-12">
+                        <img src="static/img/content/bless.png" class="position-absolute">
+                        <p>Принять участие</p>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="textb position-relative">
+                <img src="static/img/content/fpl.png" class="textb__img position-absolute">
+                <img src="static/img/content/fpr.png" class="textb__img2 position-absolute">
+                <h2 class="textb__title ms-auto rig position-relative stroke col-xxl-6 ">
+
+                ПАПА ПАПА&nbsp;<span>ПАПА</span>&nbsp;ПАПА
+
+            </h2>
+                <div class="container textb__cont">
+                    <h2 class="textb__title tt2 position-relative stroke col-12">
+
+                    ПАПА &nbsp;<span>ПАПА</span>&nbsp;
+
+                </h2>
+                    <div class="textb__cont-subtitle tar ms-auto col-xxl-6">
+                        Отношения с папой и влияние их на нашу жизнь
+                    </div>
+                    <div class="d-flex fwkn">
+                        <ul class="textb__cont-ul ulrig fs-29 col-xxl-6 col-12 col-lg-6 order2">
+                            <li class="fs-29">Вместе с папой мы учимся брать из этого мира, нести ответственность, добывать ресурсы, принимать решения и действовать, раскрываем свою силу воли, познаем что такое власть, целеустремленность.</li>
+                            <li class="fs-29">Отношения с папой напрямую влияют на ваш финансовый поток, на вашу способность нести ответственность, видеть возможности и решительность ими воспользоваться.</li>
+                            <li class="fs-29">Если отношения с отцом не проработаны, у вас нет принятия папы, то и все эти качества в вас имеют довольно хрупкие основания, либо базируются на гордыне, а не на уверенности в себе. Что является очень ненадежным фундаментом.</li>
+                        </ul>
+                        <div class="textb__cont-img col-xxl-6 col-lg-6 col-12 order1">
+                            <img src="static/img/content/t2.png">
+                        </div>
+                    </div>
+                    <div class="textb__cont-text col-xxl-12 col-12">
+                        На практикуме, в расстановочном упражнении, пойдем к папе, отпустим все обиды, откроем сердце, примем чувственный опыт и папину энергию. Чтобы наполнить свою жизнь уверенностью, решительностью и финансовым благополучием.
+                    </div>
+                    <a href="#" class="tbtn position-relative text-decoration-none ms-auto me-auto col-xxl-4 col-lg-4 col-12">
+                        <img src="static/img/content/bless.png" class="position-absolute">
+                        <p>Принять участие</p>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="textb position-relative">
+                <h2 class="textb__title position-relative stroke col-xxl-7 col-12 col-lg-8">
+
+                РОД РОД &nbsp;<span>РОД</span>&nbsp; РОД&nbsp;<span>РОД</span>&nbsp;РОД
+
+            </h2>
+                <div class="container textb__cont">
+                    <h2 class="textb__title tt2 position-relative stroke col-12">
+
+                    РОД &nbsp;<span>РОД</span>&nbsp;РОД
+
+                </h2>
+                    <div class="textb__cont-subtitle col-xxl-7 col-12">
+                        Отношения с родственниками и влияние их на нашу жизнь
+                    </div>
+                    <div class="textb__cont-subtitle svmzb col-xxl-7 col-12">
+                        Отношения с родственниками и влияние
+                        <br>их на нашу жизнь
+                    </div>
+                    <div class="d-flex fwkn">
+                        <div class="textb__cont-img col-xxl-6 col-lg-6 col-12">
+                            <img src="static/img/content/t3.png">
+                        </div>
+                        <ul class="textb__cont-ul col-xxl-6 col-lg-6 col-12">
+                            <li class="fs-31">С мамой и папой ситуация влияния понятна, ведь мы на 50%- мама, а на 50% - папа, и это первые люди, которые передают нам знания и чувственный опыт, но вместе с ним еще и установки, травмы и личный негативный опыт. Но ведь за
+                                мамой и папой, стоят дедушки и бабушки, а за ними их родители. И опыт, энергия, а также травмы и болезни рода из поколения в поколение передается нам и влияет на нашу жизнь.</li>
+                            <li class="fs-31">Опыт рода - это огромный ресурс, психо-эмоциональный, энергетический, а также большой клубок установок и негативных жизненных ситуаций.</li>
+                        </ul>
+                    </div>
+                    <div class="textb__cont-text col-xxl-12 col-12">
+                        На практикуме, в специальном расстановочном упражнении, мы принимаем от рода все его ресурсы для нашей жизни, силу, родовую способность любить, мужскую и женскую энергию рода и оставляем им негативный опыт, чтобы он не влиял на нашу жизнь.
+                    </div>
+                    <a href="#" class="tbtn position-relative text-decoration-none ms-auto me-auto col-xxl-4 col-lg-4 col-12">
+                        <img src="static/img/content/bless.png" class="position-absolute">
+                        <p>Принять участие</p>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="bigul position-relative">
+                <div class="container bigul__cont">
+                    <h2 class="bigul__title ms-auto me-auto col-xxl-10 col-12">
+
+                    Практикум создан для того, чтобы вы:
+
+                </h2>
+                    <ul class="bigul__cont-ul ms-auto me-auto col-xxl-10 col-12">
+                        <li>Почувствовали себя ребенком своих родителей, встали на свое место в родовой системе, отпустили обиды и накопленный багаж установок, тяготящих и ограничивающих вашу жизнь.</li>
+                        <li>Почувствовали безусловную любовь родителей к вам и вашу любовь к ним.</li>
+                        <li>Приняли весь опыт родителей и рода, все ресурсы, которые скрыты в вашей родовой системе и по праву рождения уже принадлежат вам.</li>
+                        <li>Искренне поблагодарили родителей за жизнь и каждого участника рода, ведь без них не было бы и вас. Чтобы прочувствовать всю силу вашего рода, людей которые когда либо жили и справились чтобы появились вы и жили эту прекрасную жизнь.</li>
+                        <li>Обрели внутреннюю опору на себя, приняв маму и папу в сердце. Приняли и полюбили себя.</li>
+                        <li>Убрали первопричины блоков и установок, психосоматических заболеваний</li>
+                    </ul>
+                    <a href="#" class="tbtn position-relative text-decoration-none ms-auto me-auto col-xxl-4 col-lg-4 col-12">
+                        <img src="static/img/content/bless.png" class="position-absolute">
+                        <p>Принять участие</p>
+                    </a>
+                </div>
+                <img src="static/img/content/fpl2.png" class="position-absolute bigul__img">
+            </section>
+
+            <section class="what position-relative">
+                <h2 class="what__title position-relative stroke col-xxl-8 col-12">
+
+                ЧТО ТЕБЯ ЖДЕТ?&nbsp;<span>ЧТО ТЕБЯ ЖДЕТ?</span>&nbsp;ЧТО ТЕБЯ ЖДЕТ?
+
+            </h2>
+                <div class="container what__cont d-flex ">
+                    <h2 class="what__title tt2 position-relative stroke col-xxl-8 col-12">
+
+                    <span>ЧТО ТЕБЯ ЖДЕТ?</span>&nbsp;ЧТО ТЕБЯ ЖДЕТ?
+
+                </h2>
+                    <div class="what__cont-item position-relative">
+                        <img src="static/img/content/c1.png" class="what__cont-img1 position-absolute">
+                        <img src="static/img/content/cc1.png" class="what__cont-img2 position-absolute">
+                        <div class="what__cont-item-title">
+                            часов
+                        </div>
+                        <div class="what__cont-item-text">
+                            Научных знаний о системной психологии простым и понятным языком, подкрепленные практическими расстановочными упражнениями. Чтобы не только знать, но и чувствовать
+                        </div>
+                    </div>
+                    <div class="what__cont-item position-relative">
+                        <img src="static/img/content/c2.png" class="what__cont-img1 position-absolute">
+                        <img src="static/img/content/cc2.png" class="what__cont-img2 position-absolute">
+                        <div class="what__cont-item-title">
+                            упражнений
+                        </div>
+                        <div class="what__cont-item-text">
+                            Специальные расстановочные упражнения, чтобы на практике почувствовать свою любовь, увидеть любовь мамы и папы, почувствовать силу рода, отпустить обиды и убрать первопричины проблемных вопросов
+                        </div>
+                    </div>
+                    <div class="what__cont-item position-relative">
+                        <img src="static/img/content/c3.png" class="what__cont-img1 position-absolute">
+                        <img src="static/img/content/cc3.png" class="what__cont-img2 position-absolute">
+                        <div class="what__cont-item-title">
+                            колличество
+                        </div>
+                        <div class="what__cont-item-text">
+                            Новых эмоций, чувств, осознаний от полученной информации, любви к себе, партнеру, детям, родителям, друзьям, миру
+                        </div>
+                    </div>
+                    <a href="#" class="tbtn position-relative text-decoration-none ms-auto me-auto col-xxl-4 col-lg-4 col-12">
+                        <img src="static/img/content/bless.png" class="position-absolute">
+                        <p>Присоединиться</p>
+                    </a>
+                    <div class="what__cont-love position-relative ms-auto me-auto col-xxl-10">
+                        <div class="what__cont-love-title">
+                            Любовь - это не то, что снаружи, любовь - это то, что внутри.
+                        </div>
+                        <div class="what__cont-love-text">
+                            Найти безусловную любовь к родителям, роду и себе - чтобы открыть любовь этого мира к тебе
+                        </div>
+                        <img src="static/img/content/heart.png" class="what__cont-love-img position-absolute">
+                    </div>
+                </div>
+                <img src="static/img/content/fpl3.png" class="what__img position-absolute">
+            </section>
+
+            <section class="author">
+                <div class="container author__cont d-flex">
+                    <div class="author__cont-left col-xxl-6 col-md-6 col-12 orr2">
+                        <div class="author__cont-left-toptitle d-flex">
+                            автор и ведущий практикума
+                        </div>
+                        <div class="author__cont-left-title">
+                            Основатель НИИ "СИСТЕМНАЯ ПСИХОЛОГИЯ" руководитель научной части - Владимир Протопопов
+                        </div>
+                        <div class="author__cont-left-subtitle">
+                            Клинический психолог, расстановщик.
+                        </div>
+                        <div class="author__cont-left-text">
+                            -Инженер с образованием психолога, психолог с образованием инженера.
+                            <br>
+                            <br>-Поменял место руководителя в международной ИТ корпорации на помощь людям.
+                            <br>
+                            <br>-Автор 10 трансформационных психологических программ, марафонов и интенсивов.
+                            <br>
+                            <br>-Разработчик диспозитного метода нейротрансформации.
+                        </div>
+                        <img class="skvzbmn" src="static/img/content/auth.png">
+                        <div class="author__cont-left-items d-flex">
+                            <div class="author__cont-left-items-item">
+                                <p>
+                                    3500+
+                                </p>
+                                проведенных
+                                <br>расстановок
+                            </div>
+                            <div class="author__cont-left-items-item">
+                                <p>
+                                    800+
+                                </p>
+                                клиентов прошедших
+                                <br>программы НИИ
+                            </div>
+                            <div class="author__cont-left-items-item">
+                                <p>
+                                    5000+
+                                </p>
+                                личных
+                                <br>консультаций
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="author__cont-img col-xxl-6 col-md-6 col-12 orr1">
+                        <img src="static/img/content/auth.png">
+                    </div>
+                </div>
+            </section>
+
+            <section class="prog position-relative">
+                <div class="container prog__cont">
+                    <h2 class="prog__cont-title ddh ms-auto rig position-relative stroke col-xxl-7 col-12">
+
+                    &nbsp;<span>ПРОГРАММА ПРАКТИКУМА</span>&nbsp; ПРОГРАММА ПРАКТИКУМА
+
+                </h2>
+                    <h2 class="prog__cont-title dds ms-auto rig position-relative stroke col-xxl-7 col-12">
+
+                    <span>ПРОГРАММА ПРАКТИКУМА</span>
+
+                </h2>
+                </div>
+                <div class="container prog__item d-flex">
+                    <div class="prog__item-kal position-relative col-xxl-3 col-lg-4">
+                        <img src="static/img/content/kal.png">
+                        <p class="position-absolute">
+                            <span>5 МАЯ</span> 
+                            <br>(ПЯТНИЦА)
+                        </p>
+                    </div>
+                    <div class="prog__item-text col-xxl-9 col-lg-8">
+                        <ul>
+                            <li><span>УЖИН - ЗНАКОМСТВО</span>
+                            </li>
+                            <li>20.00 - сбор участников (по желанию) ужин- знакомство с командой НИИ"Системная психология"*</li>
+                        </ul>
+                        <p>* ужин не входит в стоимость мероприятия, еда и напитки оплачиваются самостоятельно участниками</p>
+                    </div>
+                </div>
+                <div class="container prog__item d-flex">
+                    <div class="prog__item-kal position-relative col-xxl-3 col-lg-4">
+                        <img src="static/img/content/kal.png">
+                        <p class="position-absolute">
+                            <span>6 МАЯ</span> 
+                            <br>(СУББОТА)
+                        </p>
+                    </div>
+                    <div class="prog__item-text col-xxl-9 col-lg-8">
+                        <ul>
+                            <li class="fs15"><span>09.00</span> - Сбор участников. Кофе-брейк.</li>
+                            <li class="fs15"><span>10:00</span> - Лекционная часть. Базовые понятия иерархичности родовых систем и важности быть на своем месте.</li>
+                            <li class="fs15"><span>Как передаются родовые травмы из поколения в поколение и почему на нас влияет опыт родовых систем.</span>
+                            </li>
+                            <li class="fs15"><span>Практика:</span> расстановочные упражнения</li>
+                            <li class="fs15"><span>11:00</span> - "Мама. Базовое доверие к миру, любовь и отношения."</li>
+                            <li class="fs15"><span>Разберем проблематику, возможные причины конфликтов и как это влияет на нашу жизнь, способность любить и строить крепкие отношения.</span>
+                            </li>
+                            <li class="fs15"><span>Практика:</span> расстановочное упражнение на принятие мамы, которое позволит принять мамину любовь.</li>
+                            <li class="fs15"><span>13:00</span> - Лекционная часть. "Папа. Успех, уверенность, финансы"</li>
+                            <li class="fs15"><span>Взаимоотношения с отцом и влияние обид на наше финансовое благополучие. Найдем причины травмирующих ситуаций и избавимся от них.</span>
+                            </li>
+                            <li class="fs15"><span>Практика:</span> расстановочные упражнения на принятие Отца и денежной энергии.</li>
+                            <li class="fs15"><span>15:00-16:00</span> - Обед</li>
+                            <li class="fs15"><span>16:00</span> - Лекционная часть. "Родовая система. Сила рода" Займем свое место в родовой системе через расстановочное упражнение примем силу рода.</li>
+                            <li class="fs15"><span>Практика:</span> Расстановочное упражнение на принятие рода</li>
+                            <li class="fs15"><span>Показательная расстановка с участниками практикума. Ответы на вопросы.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container prog__item d-flex position-relative z-11">
+                    <div class="prog__item-kal position-relative col-xxl-3 col-lg-4">
+                        <img src="static/img/content/kal.png">
+                        <p class="position-absolute">
+                            <span>7-8 МАЯ</span> 
+                            <br>(ВС И ПН)
+                        </p>
+                    </div>
+                    <div class="prog__item-text col-xxl-9 col-lg-8">
+                        <ul>
+                            <li class="fs15"><span>09.00 - Сбор участников. Кофе-брейк.</span>
+                            </li>
+                            <li class="fs15"><span>09.30 - 14:00 - Расстановки</span>
+                            </li>
+                            <li class="fs15"><span>14:00 - 15:00 - Обед</span>
+                            </li>
+                            <li class="fs15"><span>15:00 - 19:00 - Расстановки</span>
+                            </li>
+                        </ul>
+                        <div class="prog__item-text-que pitq1 position-relative">
+                            1.Что такое расстановка?
+                            <ul class="prog__item-text-que-mess position-absolute">
+                                <li>Расстановочные мероприятия - это решение вашей проблемы, через поиск причин её возникновения в вашем личном или родовом опыте.</li>
+                                <li>(Так к примеру, причинами недостатка денег у ВАС, зачастую является травмирующая ситуация связанная с деньгами у ваших предков, потеря большой суммы или пожар. Как это проявляется? Испытав стресс от потери денег, предок
+                                    передает дальше по роду установку что деньги - это страшно, и происходит блокирование на уровне подсознания. А вы просто получили этот страх в наследство)</li>
+                                <li>На расстановке мы находим корневые причины проблем, проживаем этот эмоциональный опыт, принимаем и отпускаем проблему и больше не несем эту негативную программу в жизнь.</li>
+                            </ul>
+                        </div>
+                        <div class="prog__item-text-que pitq2 position-relative">
+                            2.С каким запросом можно прийти на расстановку?
+                            <ul class="prog__item-text-que-mess position-absolute">
+                                <li>Расстановочные мероприятия - это решение вашей проблемы, через поиск причин её возникновения в вашем личном или родовом опыте.</li>
+                                <li>(Так к примеру, причинами недостатка денег у ВАС, зачастую является травмирующая ситуация связанная с деньгами у ваших предков, потеря большой суммы или пожар. Как это проявляется? Испытав стресс от потери денег, предок
+                                    передает дальше по роду установку что деньги - это страшно, и происходит блокирование на уровне подсознания. А вы просто получили этот страх в наследство)</li>
+                                <li>На расстановке мы находим корневые причины проблем, проживаем этот эмоциональный опыт, принимаем и отпускаем проблему и больше не несем эту негативную программу в жизнь.</li>
+                            </ul>
+                        </div>
+                        <div class="prog__item-text-que pitq3 position-relative">
+                            3.Какие проблемы можно решить расстановкой?
+                            <ul class="prog__item-text-que-mess position-absolute">
+                                <li>Расстановочные мероприятия - это решение вашей проблемы, через поиск причин её возникновения в вашем личном или родовом опыте.</li>
+                                <li>(Так к примеру, причинами недостатка денег у ВАС, зачастую является травмирующая ситуация связанная с деньгами у ваших предков, потеря большой суммы или пожар. Как это проявляется? Испытав стресс от потери денег, предок
+                                    передает дальше по роду установку что деньги - это страшно, и происходит блокирование на уровне подсознания. А вы просто получили этот страх в наследство)</li>
+                                <li>На расстановке мы находим корневые причины проблем, проживаем этот эмоциональный опыт, принимаем и отпускаем проблему и больше не несем эту негативную программу в жизнь.</li>
+                            </ul>
+                        </div>
+                        <div class="prog__item-text-que pitq3 position-relative">
+                            4.Как проходит расстановка?
+                            <ul class="prog__item-text-que-mess position-absolute">
+                                <li>Расстановочные мероприятия - это решение вашей проблемы, через поиск причин её возникновения в вашем личном или родовом опыте.</li>
+                                <li>(Так к примеру, причинами недостатка денег у ВАС, зачастую является травмирующая ситуация связанная с деньгами у ваших предков, потеря большой суммы или пожар. Как это проявляется? Испытав стресс от потери денег, предок
+                                    передает дальше по роду установку что деньги - это страшно, и происходит блокирование на уровне подсознания. А вы просто получили этот страх в наследство)</li>
+                                <li>На расстановке мы находим корневые причины проблем, проживаем этот эмоциональный опыт, принимаем и отпускаем проблему и больше не несем эту негативную программу в жизнь.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="tbtn position-relative text-decoration-none ms-auto me-auto col-xxl-4 col-lg-4 col-10">
+                    <img src="static/img/content/bless.png" class="position-absolute">
+                    <p>Присоединиться</p>
+                </a>
+                <img class="prog__img position-absolute" src="static/img/content/fpl4.png">
+            </section>
+
+            <section class="where position-relative">
+                <div class="container where__cont d-flex">
+                    <h2 class="col-12">ГДЕ ПРОХОДИТ ПРАКТИКУМ?</h2>
+                    <div class="where__cont-left col-xxl-5 col-md-6 col-12">
+                        <div class="where__cont-left-top">
+                            6-8 мая 2023 г
+                        </div>
+                        <div class="where__cont-left-subtitle">
+                            Конференц-зал
+                        </div>
+                        <div class="where__cont-left-title">
+                            отеля Tulip inn hotel
+                        </div>
+                        <div class="where__cont-left-ad">
+                            г.Сочи, Роза Хутор.
+                        </div>
+                        <div class="where__cont-left-subad">
+                            *Проживание и трансфер не входит в стоимость мероприятия
+                        </div>
+                        <div class="where__cont-left-text position-relative">
+                            <img class="position-absolute" src="static/img/content/vos.png">
+                            <p>МЕСТО ПРОВЕДЕНИЯ МОЖЕТ БЫТЬ ИЗМЕНЕНО, НА ДРУГОЙ ЗАЛ В ЭТОЙ ЖЕ ЛОКАЦИИ</p>
+                        </div>
+                    </div>
+                    <div class="where__cont-imgs d-flex col-xxl-7 col-md-6 col-12">
+                        <img src="static/img/content/p1.png">
+                        <img src="static/img/content/p2.png">
+                        <img src="static/img/content/p3.png">
+                        <img src="static/img/content/p4.png">
+                    </div>
+                </div>
+                <img class="where__imgg" src="static/img/content/blurr.png">
+            </section>
+
+
+            <section class="reviews position-relative">
+                <div class="container">
+                    <div class="reviews__title">ОТЗЫВЫ УЧАСТНИКОВ НАШИХ МЕРОПРИЯТИЙ</div>
+                    <div class="reviews__slider col-lg-10 col-10 me-auto ms-auto">
+                        <div class="slider-container reviews-slider-1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=LTEGc5ycRhI" data-fancybox="s1" class="position-relative">
+                                        <img src="static/img/content/play.png" class="position-absolute">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=LTEGc5ycRhI" data-fancybox="s1" class="position-relative">
+                                        <img src="static/img/content/play.png" class="position-absolute">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=LTEGc5ycRhI" data-fancybox="s1" class="position-relative">
+                                        <img src="static/img/content/play.png" class="position-absolute">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=LTEGc5ycRhI" data-fancybox="s1" class="position-relative">
+                                        <img src="static/img/content/play.png" class="position-absolute">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__button reviews__button-prev rev-1-slider-prev">
+                            <img src="static/img/content/slider-prev.png" alt="">
+                        </div>
+                        <div class="reviews__button reviews__button-next rev-1-slider-next">
+                            <img src="static/img/content/slider-next.png" alt="">
+                        </div>
+                    </div>
+                    <div class="reviews__slider col-lg-10 col-10 me-auto ms-auto">
+                        <div class="slider-container reviews-slider-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__button reviews__button-prev rev-2-slider-prev">
+                            <img src="static/img/content/slider-prev.png" alt="">
+                        </div>
+                        <div class="reviews__button reviews__button-next rev-2-slider-next">
+                            <img src="static/img/content/slider-next.png" alt="">
+                        </div>
+                    </div>
+                    <a href="#" class="tbtn position-relative text-decoration-none ms-auto me-auto col-xxl-4 col-lg-4">
+                        <img src="static/img/content/bless.png" class="position-absolute">
+                        <p>ХОЧУ НА ПРАКТИКУМ</p>
+                    </a>
+                </div>
+                <img src="static/img/content/fpr2.png" class="position-absolute reviews__img">
+            </section>
+
+            <section class="pricing">
+                <div class="container pricing__cont d-flex">
+                    <div class="pricing__title col-12">Стоимость участия</div>
+                    <div class="pricing__items col-12">
+                        <div class="pricing__item">
+                            <img src="static/img/content/slide-1.png" alt="">
+                            <div class="pricing__item-content">
+                                <div class="pricing__item-top">
+                                    <div class="pricing__item-date">
+                                        6 МАЯ 2023 г.
+                                    </div>
+                                    <div class="pricing__item-title">
+                                        ПРАКТИКУМ
+                                    </div>
+                                </div>
+                                <div class="pricing__desc">
+                                    <ul>
+                                        <li>Участие в программе практикума (проживание и трансфер организуется самостоятельно)</li>
+                                        <li>Получение теоретических и практических навыков построения отношений в любви.</li>
+                                        <li>Участие в ужине - знакомстве 5 мая (напитки и еда оплачиваются самостоятельно)</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing__price">
+                                    5000 p.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing__item">
+                            <img src="static/img/content/slide-2.png" alt="">
+                            <div class="pricing__item-content">
+                                <div class="pricing__item-top">
+                                    <div class="pricing__item-title">
+                                        КОМБО
+                                    </div>
+                                </div>
+                                <div class="pricing__desc">
+                                    <b>2 дня 6-7 МАЯ</b>
+                                    <ul>
+                                        <li>
+                                            Участие в программе практикума (проживание и трансфер организуется самостоятельно)
+                                        </li>
+                                        <li>
+                                            Участие в клиентской расстановке, решение вашей проблемы.
+                                        </li>
+                                        <li>
+                                            Участие в ужине - знакомстве 5 мая (напитки и еда оплачиваются самостоятельно)
+                                        </li>
+                                    </ul>
+                                    <b>
+
+                                3 дня 6-8 МАЯ
+
+                            </b>
+                                    <ul>
+                                        <li>
+                                            Участие в программе практикума (проживание и трансфер организуется самостоятельно)
+                                        </li>
+                                        <li>Клиентская расстановка, решение вашей проблемы.</li>
+                                        <li>Участие в ужине - знакомстве 5 мая (напитки и еда оплачиваются самостоятельно)</li>
+                                        <li>Участие в роли заместителя все 2 расстановочных дня</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing__price pp1">
+                                    2 дня - 20000 р
+                                </div>
+                                <div class="pricing__price">
+                                    3 дня - 25000 р
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="pricing__item">
+                            <img src="static/img/content/slide-3.png" alt="">
+                            <div class="pricing__item-content">
+                                <div class="pricing__item-top">
+                                    <div class="pricing__item-date">
+                                        7 или 8 МАЯ 2023 г.
+                                    </div>
+                                    <div class="pricing__item-title">
+                                        РАССТАНОВКИ
+                                    </div>
+                                </div>
+                                <div class="pricing__desc">
+                                    <b>
+
+                                КЛИЕНТ
+
+                            </b>
+                                    <ul>
+                                        <li>
+                                            Участие в расстановке, решение вашей проблемы по запросу + участие заместителем в расстановках других.
+                                        </li>
+                                    </ul>
+                                    <b>
+
+                                ЗАМЕСТИТЕЛЬ
+
+                            </b>
+                                    <ul>
+                                        <li>
+                                            Участие в расстановке на заместительских позициях, приобретение нового чувственного опыта, проработка проблематики без конкретного запроса.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pricing__price pp1">
+                                    КЛИЕНТ 20.000 р
+                                </div>
+                                <div class="pricing__price pp2">
+                                    ЗАМЕСТИТЕЛЬ 10000 р
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container pricing__cont-bot d-flex">
+                    <div class="pricing__text col-xxl-7 col-md-7 col-12">
+                        По всем вопросам оплаты, помощи в выборе размещения и трансфера, рассрочки вы можете обратиться в отдел заботы
+                    </div>
+                    <a href="#" class="pricing__btn col-xxl-5 col-lg-5 col-12">
+
+                    Написать в отдел заботы (телеграмм)
+
+                </a>
+                </div>
+            </section>
+
+
+            <div class="modal mbr-popup cid-sRBZk3Qz7J fade show" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8" id="notification" aria-modal="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="container position-static margin-center-pos">
+                            <div class="modal-header pb-0">
+                                <h5 class="modal-title mbr-fonts-style display-2">УВЕДОМЛЕНИЕ</h5>
+                                <button onclick="window.location.href='#close'" type="button" class="close d-flex" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="currentColor">
+                                        <path d="M13.4 12l10.3 10.3-1.4 1.4L12 13.4 1.7 23.7.3 22.3 10.6 12 .3 1.7 1.7.3 12 10.6 22.3.3l1.4 1.4L13.4 12z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <p class="mbr-text mbr-fonts-style display-7">
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+
+        <script src="static/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
+
+
+    </body>
+
+</html>
